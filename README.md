@@ -17,5 +17,5 @@
 
 3. Have a go at separating logic from presentation in one of your PHP examples that uses a database e.g. your Assignment 1 piece. Look on the lecture slides for a simple example. It does taking some thinking about. Here are some basic guidelines:
      * Don't use any *echo* statements in your logic code. Instead assign values to variables and arrays. 
-     * Include a 'view' file that will output data for you e.g. a list of search results. The view shouldn't simple output values of variables. You may need a loop if working with arrays or if statement to check if a value has been set. 
+     * Include a 'view' file that will output data for you e.g. a list of search results. The view should simple output values of variables (no database related code). You may need a loop if working with arrays or if statements to check if a value has been set. 
 
