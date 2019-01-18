@@ -23,13 +23,6 @@ $stmt = $conn->prepare("SELECT * FROM films INNER JOIN certificates on films.cer
 $stmt->bindValue(':id',$filmId);
 $stmt->execute();
 $film=$stmt->fetch();
-
-$errors=false;
-if(empty($film)){
-	$errors=true;
-	$errMessage="Can't find any records for that film.";
-}
-
 $conn=NULL;
 
 include "views/details-view.php";
