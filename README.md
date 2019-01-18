@@ -8,7 +8,7 @@ This provides a simple way to remove duplicate code in our applications.
 * Look at the source code for both *includes-demo.php* and *message.html*.
 * Note how *includes-demo.php* displays content from *message.html* using the line:
 ```
-require "message.html";
+include "message.html";
 ```
 
 Here are a couple of things about including files:

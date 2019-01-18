@@ -7,7 +7,7 @@
 <body> 
 <h1>Welcome to the Website</h1>
 <?php
-require "message.html";
+include "message.html";
 ?>
 </body>
 </html>
