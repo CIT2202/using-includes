@@ -20,7 +20,7 @@ Here are a couple of things about including files:
   * *require_once*
   * See the following link for a discussion of the differences https://stackoverflow.com/questions/2418473/difference-between-require-include-and-require-once 
 
-## On your own
+## Using Includes
 * In a browser open the 'All About Huddersfield' website. It is a very simple PHP website. 
 * Re-structure the website to use PHP includes.
    * Start with the *index.php* page. 
@@ -36,4 +36,8 @@ Here are a couple of things about including files:
   - Make sure you build this page by using the includes
 * Modify the navigation bar so that it also features a link to the university page. You should find that changing one file updates the entire site. 
 * One problem with the above is that every single page has the same page title. How can you modify your site so that each page has a unique title while still using an included header.
+
+## Separating logic and presentation
+Have a look in the folder *separating-logic-and-presentation*. *browseable-list-new.php* and *details-new.php* are examples that should be familiar to you. However, they have been re-written to separate the application logic (processing the query string, working with the database etc.) from the presentation (HTML). Have a look at these examples.
+* Choose one of your own examples (either from the practical sessions or your assignment 1 piece). Using PHP includes, attempt something similar.
 
