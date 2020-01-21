@@ -5,9 +5,9 @@ include "header.php";
 <?php
 
 if($film){
-	echo "<h1>{$film['title']}({$film['name']})</h1>";
+	echo "<h1>{$film['title']}</h1>";
 	echo "<p>{$film['title']} was made in {$film['year']}.</p>";
-	
+
 }else{
 	echo "<p>Can't find any records for that film.</p>";
 }
