@@ -1,13 +1,8 @@
+<?php
+include "header.php";
+?>
 
-<!DOCTYPE HTML>
-<html>
-<head>
-<title>List the films</title>
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-</head>
-<body>
-	
-	<h1>A Browseable List</h1>
+<h1>A Browseable List</h1>
 <?php
 
 //check to see if there are any results
@@ -23,6 +18,5 @@ if($films){
 }else{
 	echo "No records found";
 }
+include "footer.php";
 ?>
-</body>
-</html>

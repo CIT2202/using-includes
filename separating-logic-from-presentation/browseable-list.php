@@ -1,9 +1,9 @@
 <?php
 try{
-       $conn = new PDO('mysql:host=localhost;dbname=u0123456', 'u0123456', '01jan96');
-       $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+  $conn = new PDO('mysql:host=localhost;dbname=cit2202', 'cit2202', 'letmein');
+  $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 }
-catch (PDOException $exception) 
+catch (PDOException $exception)
 {
 	echo "Oh no, there was a problem" . $exception->getMessage();
 }
@@ -24,7 +24,7 @@ $conn=NULL;
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 </head>
 <body>
-	
+
 	<h1>A Browseable List</h1>
 <?php
 

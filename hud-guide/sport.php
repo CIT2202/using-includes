@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>All About Huddersfield</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
 </head>
 <body>
 <header>
@@ -23,7 +24,7 @@
 <section>
 
 <footer>
-Text modified from 
+Text modified from
 <a href="https://en.wikipedia.org/wiki/Huddersfield">
 https://en.wikipedia.org/wiki/Huddersfield
 </a>
