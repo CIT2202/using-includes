@@ -32,9 +32,9 @@ Here are a couple of things about including files:
         include "header.php";
      ```
     * Test this works
-* Modify the other pages in the site to also use the includes.
+* Modify the other pages in the site to also use includes.
 * Add another page to the site e.g. a page about the University.
-  - Make sure you build this page by using the includes
-* Modify the navigation bar so that it also features a link to the university page. You should find that changing one file updates the entire site.
+  - Make sure you build this page by using includes
+* Modify the navigation bar so that it also features a link to the University page you have just created. You should find that changing one file updates the entire site.
 * One problem with the above is that every single page has the same page title. How can you modify your site so that each page has a unique title while still using an included header.
 
