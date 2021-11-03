@@ -1,8 +1,8 @@
 # PHP Includes
 
-PHP provides a number of statements that allow us to insert other files in our PHP pages.
+PHP provides a number of statements that allow us to insert other files in our PHP pages. This provides a simple way to remove duplicate code in our applications. 
 
-This provides a simple way to remove duplicate code in our applications. Download this repository.
+Download this repository.
 
 * Open *includes-demo.php* in a browser.
 * Look at the source code for both *includes-demo.php* and *message.html*.
